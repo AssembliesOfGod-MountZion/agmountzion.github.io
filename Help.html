@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wifi Captive Portal</title>
+    <link rel="stylesheet" href="Help.css">
+    <!-- Font Awesome CDN (add this for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url('2.jpg') no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            backdrop-filter: blur(9px);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="form-container">
+        <div class="left-container">
+            <div class="left-inner-container">
+                <h2>Wifi Captive Portal</h2>
+                <section id="contact-us">
+                    <p>If you have any questions, feel free to reach out to us. We're here to help!</p>
+                    <p>Email: <a href="mailto:wifisupport@gmail.com">wifisupport@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+233535431003">+233 535 439 1003</a></p>
+    
+                    <p>Whatsapp <a href="https://wa.me/qr/X4ILL5TJGM2DN1">+233 535 439 1003</a></p>
+                    
+                    <br>
+                    
+                    <br>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="right-inner-container">
+                <form action="send_mail.php" method="POST">
+                    <h2 class="lg-view">Contact Us</h2>
+                    <h2 class="sm-view">Chat with Us</h2>
+                    
+                    <input type="text" name="name" placeholder="Name *" required />
+                    <input type="email" name="email" placeholder="Email *" required />
+                    <input type="text" name="department" placeholder="Department" required />
+                    <input type="tel" name="phone" placeholder="Phone" required />
+                    <textarea rows="4" name="message" placeholder="Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
